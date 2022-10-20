@@ -1,0 +1,210 @@
+
+/* MODELING de Index */
+
+.headergeneral {
+    position: fixed;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.iconofijo {
+position: fixed;
+bottom: 10px;
+right: 10px;
+}
+.nav__ul li { 
+    padding: 8px 10px 8px 10px;   
+    font-family: 'New Tegomin', serif;
+    font-size: larger;
+    z-index: 1;
+    list-style: none;
+    margin-right: 50px;
+}
+.nav__ul a {
+    color: azure;
+}
+.nav__ul  {
+    background-color: midnightblue;
+    width: 100vw;
+    position: sticky;
+}
+.nav__ul ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: space-between; 
+}
+.header__div div{
+    align-content: center;
+}
+.atributos1 div{
+    background-color: rgb(73, 71, 75);
+    padding-right: 40px;
+    padding-left: 40px;
+    border-bottom: 1px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+.imagecontainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.accentcontainer {
+    background-color: rgb(194, 121, 11);
+    margin-top: 10px;
+}
+.accentcontainer h1 {
+    color: azure;
+    margin-left: 10px;
+}
+.horizontalcontainer {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.descripcioncontainer {
+    padding: 8px;
+    margin: 4px;
+    background-color: white;
+    border: 2px black;
+}
+
+.contactos {
+    justify-content: space-between;
+    padding: 8px 10% 8px 10%;
+}
+.containercontactos{
+    background-color: rgb(127, 133, 133);
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.containercontactos h2{
+    color: azure;
+    margin-left: 10px;
+}
+.alineartexto{
+    align-items:center;
+    justify-content: center;
+}
+
+/* MODELING de contacto*/
+
+.contenedorcontacto {
+    display:flex;
+    justify-content: center;
+}
+.divformuariogral textarea{
+    width: 300px;
+    
+}
+.fondocontactosform{
+    background-color: darkslategrey;
+    width: 50%;
+    padding: 4px;
+}
+.divformuariogral input{
+    width: 200px;
+}
+
+/* MODELING de nosotros*/
+
+.containernosotrosgeneral {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.containernosotros {
+    background-color: midnightblue;
+    padding: 30px 20px 10px 20px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 4px;
+}
+.containernosotrosdiv h1 {
+    color: azure;
+    font-size: 45px;
+}
+.descripcioncontainernosotros {
+    font-size: 35px;
+    z-index: 1;
+}
+
+/* MODELING de productos*/
+
+.containerproductosgeneralmayor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 60px 30px 60px;
+}
+
+.productocontainer{
+    display: flex;
+    justify-content:center;
+    border-radius: 4px;
+    flex-direction: column;
+    border-radius: 10px;
+    border-bottom: 20px;
+    border-top: 20px;
+    flex: 0.5;
+    padding: 45px;
+    align-items: center;
+
+}
+.break {
+    flex-basis: 100%;
+    height: 0%;
+}
+.maximage{
+    width: 450px;
+    height: 450px;
+}
+
+/* MODELING de Resena Brusa*/
+
+.imagecontainerbackground {
+    background-image: url("/IMG/ACONDICIONADOR-SOLIDO\ imagen\ 5.jpg");
+    width: 100vw;
+    height: 300px;
+}
+.textocentradoresena {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'New Tegomin', serif;
+}
+
+.textogeneralresena {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+}
+.containerresenageneral {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
